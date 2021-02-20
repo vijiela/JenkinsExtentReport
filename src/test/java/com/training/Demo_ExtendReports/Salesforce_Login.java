@@ -86,27 +86,27 @@ public class Salesforce_Login {
 		
 	}
 	
-	@Test
-	public void Login_02(Method name) throws InterruptedException, IOException {
-		test = extent.createTest(name.getName());
-		driver.get("https://login.salesforce.com");
-		test.log(Status.INFO, "Login page launched");
-		driver.findElement(By.id("username")).sendKeys("vijiela@abc.com");
-		test.info("Entered username");
-		driver.findElement(By.id("password")).sendKeys("tekarch@1235");
-		test.info("Entered password");
-		driver.findElement(By.id("Login")).click();
-		Thread.sleep(5000);
-		if(driver.findElement(By.id("error")).getText().equals("Password enterd is incorrect")) {
-			test.log(Status.PASS, "Login_TC01 Passed");
-			Assert.assertEquals(driver.findElement(By.id("error")).getText(), "Password enterd is incorrect");
-		}
-		else {
-			test.addScreenCaptureFromPath(takescreenshot());
-			test.log(Status.FAIL, "Login_TC02 FAILED");
-			Assert.fail("Login_TC02 FAILED");
-		}
-		
-	}
+//	@Test
+//	public void Login_02(Method name) throws InterruptedException, IOException {
+//		test = extent.createTest(name.getName());
+//		driver.get("https://login.salesforce.com");
+//		test.log(Status.INFO, "Login page launched");
+//		driver.findElement(By.id("username")).sendKeys("vijiela@abc.com");
+//		test.info("Entered username");
+//		driver.findElement(By.id("password")).sendKeys("tekarch@1235");
+//		test.info("Entered password");
+//		driver.findElement(By.id("Login")).click();
+//		Thread.sleep(5000);
+//		if(driver.findElement(By.id("error")).getText().equals("Password enterd is incorrect")) {
+//			test.log(Status.PASS, "Login_TC01 Passed");
+//			Assert.assertEquals(driver.findElement(By.id("error")).getText(), "Password enterd is incorrect");
+//		}
+//		else {
+//			test.addScreenCaptureFromPath(takescreenshot());
+//			test.log(Status.FAIL, "Login_TC02 FAILED");
+//			Assert.fail("Login_TC02 FAILED");
+//		}
+//		
+//	}
 
 }
