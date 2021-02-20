@@ -13,9 +13,8 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
 		<attributes>
-			<attribute name="module" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
@@ -24,52 +23,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Vijie/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar" sourcepath="C:/Users/Vijie/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
-			<attribute name="maven.artifactId" value="selenium-api"/>
-			<attribute name="maven.version" value="3.141.59"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Vijie/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar" sourcepath="C:/Users/Vijie/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="commons-io"/>
-			<attribute name="maven.artifactId" value="commons-io"/>
-			<attribute name="maven.version" value="2.8.0"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Vijie/.m2/repository/junit/junit/4.11/junit-4.11.jar" sourcepath="C:/Users/Vijie/.m2/repository/junit/junit/4.11/junit-4.11-sources.jar">
-		<attributes>
-			<attribute name="test" value="true"/>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="junit"/>
-			<attribute name="maven.artifactId" value="junit"/>
-			<attribute name="maven.version" value="4.11"/>
-			<attribute name="maven.scope" value="test"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/Vijie/.p2/pool/plugins/org.testng_7.3.0.r202008060316.jar" sourcepath="C:/Users/Vijie/.p2/pool/plugins/org.testng.source_7.3.0.r202008060316.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Vijie/.m2/repository/io/github/bonigarcia/webdrivermanager/4.2.2/webdrivermanager-4.2.2.jar" sourcepath="C:/Users/Vijie/.m2/repository/io/github/bonigarcia/webdrivermanager/4.2.2/webdrivermanager-4.2.2-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="io.github.bonigarcia"/>
-			<attribute name="maven.artifactId" value="webdrivermanager"/>
-			<attribute name="maven.version" value="4.2.2"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/Vijie/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar" sourcepath="C:/Users/Vijie/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59-sources.jar">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
-			<attribute name="maven.artifactId" value="selenium-chrome-driver"/>
-			<attribute name="maven.version" value="3.141.59"/>
-			<attribute name="maven.scope" value="compile"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
