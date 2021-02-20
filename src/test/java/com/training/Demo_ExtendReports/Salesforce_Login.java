@@ -78,6 +78,7 @@ public class Salesforce_Login {
 			Assert.assertEquals(driver.findElement(By.id("error")).getText(), "Please check your username and password. If you still can't log in, contact your Salesforce administrator.");
 		}
 		else {
+			System.out.println("Failure");
 			test.addScreenCaptureFromPath(takescreenshot());
 			test.log(Status.FAIL, "Login_TC01 FAILED");
 			Assert.fail("Login_TC01 FAILED");
