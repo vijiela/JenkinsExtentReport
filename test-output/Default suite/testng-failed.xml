@@ -7,7 +7,6 @@
         <methods>
           <include name="initialize"/>
           <include name="closereport"/>
-          <include name="Login_02" invocation-numbers="0"/>
           <include name="Login_01" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.training.Demo_ExtendReports.Salesforce_Login -->

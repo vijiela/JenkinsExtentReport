@@ -3,3 +3,4 @@
 .setting/*
 desktop.ini
 target/*
+/target/
